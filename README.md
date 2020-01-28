@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Middleware and routing. 
+
 - [ ] Describe Middleware?
+
+Middleware receives both request and response objects, operate on them, and when 	specified, trigger an action. (TK – Introduction to Node.js and Express). 
 
 - [ ] Describe a Resource?
 
+Resources are the things that our application cares about, nouns used in our application domain. Examples of resources: Users, Products, Orders, Clients, Returns, etc. 
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+A status 200 OK response code. 
+
 - [ ] How can we partition our application into sub-applications?
+
+Express Routers are a way to split an application into sub-applications to make it more modular and easier to maintain. (TK – Server Side Routing with Express). 
 
 ## Minimum Viable Product
 
