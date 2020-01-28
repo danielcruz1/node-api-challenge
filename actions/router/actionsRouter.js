@@ -1,7 +1,7 @@
 const express = require('express');
 const Actions = require('../../data/helpers/actionModel');
 const validateActionId = require('../middleware/validateActionId');
-const validateProjectId = require('../../actions/middleware/validateActionId');
+const validateProjectId = require('../../projects/middleware/validateProjectId');
 
 const router = express.Router();
 
